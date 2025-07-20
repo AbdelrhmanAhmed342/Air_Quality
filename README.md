@@ -7,6 +7,7 @@ Analyze and model air quality data in India to understand pollution patterns and
 ---
 
 ## 📂 Dataset
+- **Source**:[https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india]
 - **Period**: 2015–2020
 - **Size**: ~320,000 records
 - **Features**: City, Date, PM2.5, PM10, NO2, SO2, CO, O3, Temperature, Wind Speed, Humidity
@@ -42,10 +43,6 @@ Analyze and model air quality data in India to understand pollution patterns and
 - Compared with **Linear Regression** and **Random Forest**.
 - Evaluation using `RMSE`, `MAE`, and `R²`.
 
-### 🔹 5. Dashboard (Optional)
-- Built an interactive dashboard using **Streamlit**.
-- Users can select a city and see pollution trends and forecasts.
-
 ---
 
 ## 📈 Results
@@ -73,4 +70,4 @@ Analyze and model air quality data in India to understand pollution patterns and
 
 ## 🙋 About Me
 I'm **Abdelrahman Ahmed**, a Junior Data Scientist passionate about solving real-world problems using data.  
-Check out more of my work on [GitHub](https://github.com/YourUsername) and [LinkedIn](https://linkedin.com/in/YourProfile).
+Check out more of my work on [GitHub]([https://github.com/YourUsernam](https://github.com/AbdelrhmanAhmed342)e) and [LinkedIn]([https://linkedin.com/in/YourProfile](https://www.linkedin.com/in/abdelrahman-ahmed-220873342/)).
