@@ -1,73 +1,28 @@
-# Air_Quality
-# 🌫️ Air Quality Analysis and Forecasting
+# Air Quality Prediction
 
-## 📌 Objective
-Analyze and model air quality data in India to understand pollution patterns and predict future air quality levels.
+Predicting PM2.5 air pollution levels using machine learning. This project involves comprehensive data analysis, feature engineering, and model building with XGBoost.
 
----
+**🔗 [Open Full Project in Google Colab](https://colab.research.google.com/github/AbdelrhmanAhmed342/Air_Quality/blob/main/Air%20Quality.ipynb)**
 
-## 📂 Dataset
-- **Source**:[https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india]
-- **Period**: 2015–2020
-- **Size**: ~320,000 records
-- **Features**: City, Date, PM2.5, PM10, NO2, SO2, CO, O3, Temperature, Wind Speed, Humidity
+## Project Overview
+This project aims to forecast PM2.5 concentrations based on historical air quality data from multiple Indian cities. The workflow includes data cleaning, exploratory data analysis (EDA), feature engineering, model training with XGBoost, and evaluation.
 
----
+## Technical Highlights
+- **Data Handling:** Processed over 320,000+ rows of temporal sensor data.
+- **Feature Engineering:** Created time-based features (hour, day, month) and lag features.
+- **Model:** Built an XGBoost Regressor for forecasting.
+- **Tools:** Pandas for data wrangling, Scikit-learn for ML, Matplotlib/Seaborn for visualization.
 
-## 🛠️ Tools & Libraries
-- `Python`
-- `Pandas`, `NumPy`, `Matplotlib`, `Seaborn`
-- `Scikit-learn`, `XGBoost`
-- `Streamlit` *(for interactive dashboard - optional)*
+## Results
+The XGBoost model successfully captured trends in air pollution data and provided accurate forecasts, demonstrating the effectiveness of tree-based models for temporal environmental data.
 
----
+## How to Use
+The best way to explore this project is to open the Jupyter notebook in Colab using the link above. It requires no setup and runs in the cloud.
 
-## 📊 Key Steps
+### Run Locally
+1. Clone the repo: `git clone https://github.com/AbdelrhmanAhmed342/Air_Quality.git`
+2. Install requirements: `pip install -r requirements.txt`
+3. Open the notebook: `jupyter notebook "Air Quality.ipynb"`
 
-### 🔹 1. Data Cleaning
-- Handled **missing values** using imputation techniques.
-- Detected and removed outliers using **IQR method**.
-- Converted timestamps and ensured consistency in data types.
-
-### 🔹 2. Exploratory Data Analysis (EDA)
-- Identified most polluted cities and seasons.
-- Correlation between weather conditions and pollutant levels.
-- Visualized time trends using line plots and heatmaps.
-
-### 🔹 3. Feature Engineering
-- Created new features like `AQI_Category` and `Season`.
-- Applied rolling averages for smoothing.
-
-### 🔹 4. Machine Learning Modeling
-- Used **XGBoost Regression** to predict PM2.5 levels.
-- Compared with **Linear Regression** and **Random Forest**.
-- Evaluation using `RMSE`, `MAE`, and `R²`.
-
----
-
-## 📈 Results
-- Best model: **XGBoost** with RMSE = `7.9` and R² = `0.91`
-- Visual insights: Delhi and Kanpur had highest pollution levels.
-- Seasonal peaks observed in **Winter** due to low wind speed.
-
-
----
-
-## 🧠 What I Learned
-- Real-world handling of large environmental datasets (320k+ rows)
-- Imputing environmental sensor data using ML
-- Building regression models for time-series-like data
-- Deploying dashboards for public use
-
----
-
-## 📌 Future Work
-- Integrate weather APIs for real-time prediction
-- Use LSTM model for time-series forecasting
-- Apply models to other countries’ data (e.g., Spain, Egypt)
-
----
-
-## 🙋 About Me
-I'm **Abdelrahman Ahmed**, a Junior Data Scientist passionate about solving real-world problems using data.  
-Check out more of my work on [GitHub]([https://github.com/YourUsernam](https://github.com/AbdelrhmanAhmed342)e) and [LinkedIn]([https://linkedin.com/in/YourProfile](https://www.linkedin.com/in/abdelrahman-ahmed-220873342/)).
+## Dataset
+Source: [Air Quality Data - Indian Cities](https://www.kaggle.com/datasets/rohanrao/air-quality-data-in-india) (Kaggle)
